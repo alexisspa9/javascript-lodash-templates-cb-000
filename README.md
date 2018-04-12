@@ -14,7 +14,7 @@ be a tedious, error-prone activity when we try to manually create HTML
 strings out of data, like this:
 
 ```js
-var commentNode = document.getElementById("comments");
+var commentNode = document.getElementById("comments"); 
 commentNode.innerHTML = "<div class='some-class'>This is a comment and
 it's real long</div><p>" + someDynamicValue + "</p><p>" + someOtherValue
 + "</p>";
